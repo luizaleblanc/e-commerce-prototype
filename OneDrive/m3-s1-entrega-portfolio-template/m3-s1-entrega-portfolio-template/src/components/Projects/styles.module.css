@@ -1,0 +1,18 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6.25rem;
+}
+
+.title {
+  font-size: var(--title-2-size);
+  font-weight: 800;
+  flex: none;
+  margin-bottom: 1.75rem;
+}
+
+.projectsWrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1.25rem 1rem;
+}

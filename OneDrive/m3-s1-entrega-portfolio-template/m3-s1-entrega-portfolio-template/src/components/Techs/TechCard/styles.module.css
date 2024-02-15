@@ -1,0 +1,14 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem;
+    border: solid 1px var(--white);
+    border-radius: 1.5rem;
+    align-items: center;
+    gap: 2rem;
+}
+
+.name {
+    font-size: var(--title-3-size);
+    font-weight: 800;
+}

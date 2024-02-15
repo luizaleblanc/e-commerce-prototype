@@ -1,0 +1,17 @@
+.aboutMe {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-top: 5.5rem;
+    align-items: start;
+}
+
+.title {
+    font-size: var(--title-2-size);
+    font-weight: 800;
+    flex: none;
+}
+
+.aboutParagraph {
+    line-height: 1.875rem;
+}

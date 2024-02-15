@@ -1,0 +1,18 @@
+.techs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6.25rem;
+}
+
+.title {
+  font-size: var(--title-2-size);
+  font-weight: 800;
+  flex: none;
+  margin-bottom: 1.75rem;
+}
+
+.techsWrapper {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1rem;
+}

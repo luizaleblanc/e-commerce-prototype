@@ -1,0 +1,31 @@
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 6rem;
+}
+
+.callToAction {
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.userName {
+  color: var(--primary-color);
+  font-size: 0.9375rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: var(--title-1-size);
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+
+.about {
+    margin-bottom: 2.5rem;
+}

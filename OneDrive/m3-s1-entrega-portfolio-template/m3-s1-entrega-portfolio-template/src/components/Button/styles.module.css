@@ -1,0 +1,17 @@
+.button {
+  background-color: var(--primary-color);
+  border: none;
+  height: 2.5rem;
+  min-width: 130px;
+  border-radius: 0.75rem;
+  color: var(--white);
+  font-size: var(--label-size);
+  font-weight: 600;
+  text-align: center;
+  transition: 300ms;
+}
+
+.button:hover {
+  background-color: var(--primary-color-hover);
+  cursor: pointer;
+}

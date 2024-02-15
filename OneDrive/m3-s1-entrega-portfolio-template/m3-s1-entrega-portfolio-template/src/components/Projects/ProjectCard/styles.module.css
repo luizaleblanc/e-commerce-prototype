@@ -1,0 +1,39 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px var(--white);
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  position: relative;
+}
+
+.name {
+  font-size: var(--title-3-size);
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.description {
+  line-height: 1.875rem;
+  margin-bottom: 2rem;
+}
+
+.link {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: 300ms;
+  font-weight: 700;
+}
+
+.link:hover {
+  color: var(--link-color-hover);
+  text-decoration: underline;
+}
+
+.gitLogo {
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 1rem;
+    right: 1.25rem;
+}
